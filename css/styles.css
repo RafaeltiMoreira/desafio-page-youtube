@@ -348,6 +348,7 @@ body {
 
   .action p {
     font-size: 12px;
+    padding: 2px;
   }
 }
 
@@ -358,6 +359,10 @@ body {
 
   .main-container {
     padding: 16px;
+  }
+
+  .video-title {
+    font-size: 16px;
   }
 
   .header {
