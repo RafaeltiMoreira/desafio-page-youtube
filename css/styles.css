@@ -345,11 +345,6 @@ body {
   .channel-info {
     flex-direction: row;
   }
-
-  .action p {
-    font-size: 12px;
-    padding: 2px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -402,6 +397,11 @@ body {
 
   .channel-details {
     margin-right: 0px;
+  }
+
+  .action p {
+    font-size: 12px;
+    padding: 2px;
   }
 }
 
