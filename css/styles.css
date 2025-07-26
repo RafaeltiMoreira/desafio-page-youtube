@@ -328,6 +328,17 @@ body {
 }
 
 /* Responsive */
+@media (max-width: 1200px) {
+  .video-title {
+    font-size: 16px;
+  }
+  
+  .action p {
+    font-size: 12px;
+    padding: 2px;
+  }
+}
+
 @media (max-width: 1024px) {
   .main-container {
     flex-direction: column;
@@ -354,10 +365,6 @@ body {
 
   .main-container {
     padding: 16px;
-  }
-
-  .video-title {
-    font-size: 16px;
   }
 
   .header {
@@ -397,11 +404,6 @@ body {
 
   .channel-details {
     margin-right: 0px;
-  }
-
-  .action p {
-    font-size: 12px;
-    padding: 2px;
   }
 }
 
