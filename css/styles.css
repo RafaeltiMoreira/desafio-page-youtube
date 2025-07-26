@@ -345,6 +345,10 @@ body {
   .channel-info {
     flex-direction: row;
   }
+
+  .action p {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -377,10 +381,6 @@ body {
 
   .action-icon {
     width: 20px;
-  }
-
-  .action p {
-    font-size: 12px;
   }
 
   .video-description {

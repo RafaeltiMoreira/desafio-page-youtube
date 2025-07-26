@@ -4,9 +4,9 @@
 
 ## 🎯 Deploy do Desafio
 
-- [Clique aqui](https://trilha-css-desafio-01.netlify.app/) para acessar o resultado final da página do YouTube!
+- [Clique aqui](https://trilha-css-desafio-02.netlify.app/) para acessar o resultado final da página do YouTube!
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+![image](https://github.com/RafaeltiMoreira/desafio-page-youtube/blob/main/.github/preview-page-youtube.png?raw=true)
 
 ## 📌 Protótipo no Figma
 
@@ -36,7 +36,7 @@
 
 - [Plataforma DIO](https://web.dio.me/)
 - [Link do Figma](https://www.figma.com/file/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?node-id=0%3A1)
-- [Deploy GitHub Pages](https://trilha-css-desafio-01.netlify.app/)
+- [Deploy GitHub Pages](https://trilha-css-desafio-02.netlify.app/)
 
 ## 👨‍💻 Autor
 
