@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Layout - Flexbox</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="header-left">
+      <button class="menu-btn">
+        <img src="assets/images/menu.png" alt="Ícone de menu" title="Menu">
+      </button>
+      <a href="/" class="logo">
+        <img src="assets/images/youtube.png" alt="Logo do YouTube" class="logo-icon" title="Página Inicial do YouTube">
+      </a>
+    </div>
+
+    <div class="search-container">
+      <form class="search-form">
+        <label for="search-input" class="visually-hidden">Pesquisar</label>
+        <input type="text" id="search-input" class="search-input">
+        <button class="search-btn" title="Pesquisar">
+          <img src="assets/images/search.png" alt="Ícone de pesquisa" class="search-icon">
+        </button>
+      </form>
+    </div>
+
+    <div class="header-right">
+      <button class="header-icon-btn">
+        <img src="assets/images/video.png" alt="Ícone de video" class="header-icon" title="Criar">
+      </button>
+      <button class="header-icon-btn">
+        <img src="assets/images/bell.png" alt="Ícone de notificação" class="header-icon" title="Notificação">
+      </button>
+      <button class="header-icon-btn">
+        <img src="assets/images/foto-perfil.png" alt="Foto de perfil do usuário logado" class="profile-pic"
+          title="Perfil">
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-container">
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="video-player">
+        <img src="assets/images/banner.png" alt="Banner do video, com o nome da plataforma DIO.me" class="video-banner">
+      </div>
+
+      <article class="video-info">
+        <h1 class="video-title">Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e
+          CSS</h1>
+
+        <div class="channel-section">
+          <div class="channel-info">
+            <img src="assets/images/profile-dio.jpg" alt="Avatar do canal DIO.me" class="channel-avatar">
+            <div class="channel-details">
+              <h2>DIO</h2>
+              <p>83,3 mil inscritos</p>
+            </div>
+            <button class="subscribe-btn">INSCREVA-SE</button>
+
+            <div class="video-actions" role="toolbar" aria-label="Ações do vídeo">
+              <button class="action"><img src="assets/images/thumbs-up.png" alt="Ícone de curtir" class="action-icon">
+                <p>2 mil</p>
+              </button>
+              <button class="action"><img src="assets/images/thumbs-down.png" alt="Ícone de não gostar"
+                  class="action-icon">
+                <p>Não gostei</p>
+              </button>
+              <button class="action"><img src="assets/images/share-2.png" alt="Ícone de compartilhar"
+                  class="action-icon">
+                <p>Compartilhar</p>
+              </button>
+              <button class="action"><img src="assets/images/download.png" alt="Ícone de download" class="action-icon">
+                <p>Download</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-stats">
+          <span>28.418 visualizações</span>
+          <span>Transmitido ao vivo em 23 ago. de 2022</span>
+        </div>
+
+        <div class="video-description">
+          Nesta aula imersiva no mundo do front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática
+          da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para
+          explorarmos os mistérios do mundo invertido.
+        </div>
+      </article>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/thumb.png" alt="Imagem do vídeo Geração Tech Unimed - BH - Ciência de Dados">
+        </div>
+        <div class="video-details">
+          <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+          <p>DigitalInnovationOne</p>
+          <p>2,1 mil visualizações</p>
+          <p>Transmitido há 2 dias</p>
+        </div>
+      </article>
+
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/image-12.png" alt="Imagem do vídeo Scrum Talks">
+        </div>
+        <div class="video-details">
+          <h2>Scrum Talks</h2>
+          <p>DigitalInnovationOne</p>
+          <p>1,6 mil visualizações</p>
+          <p>Transmitido há 3 dias</p>
+        </div>
+      </article>
+
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/image-13.png" alt="Imagem do vídeo Machine Learning Avançado - Fast Track">
+        </div>
+        <div class="video-details">
+          <h2>Machine Learning Avançado - Fast Track</h2>
+          <p>DigitalInnovationOne</p>
+          <p>1,7 mil visualizações</p>
+          <p>Transmitido há 4 dias</p>
+        </div>
+      </article>
+
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/image-14.png" alt="Imagem do vídeo Global Skills #2 - Project Planning">
+        </div>
+        <div class="video-details">
+          <h2>Global Skills #2 - Project Planning</h2>
+          <p>DigitalInnovationOne</p>
+          <p>971 visualizações</p>
+          <p>Transmitido há 5 dias</p>
+        </div>
+      </article>
+
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/image-15.png" alt="Imagem do vídeo Como aprender a programar Python do ZERO">
+        </div>
+        <div class="video-details">
+          <h2>Como aprender a programar Python do ZERO</h2>
+          <p>DigitalInnovationOne</p>
+          <p>711 visualizações</p>
+          <p>Transmitido há 6 dias</p>
+        </div>
+      </article>
+
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/thumb.png" alt="Imagem do vídeo Geração Tech Unimed - BH - Ciência de Dados">
+        </div>
+        <div class="video-details">
+          <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+          <p>DigitalInnovationOne</p>
+          <p>2,1 mil visualizações</p>
+          <p>Transmitido há 2 dias</p>
+        </div>
+      </article>
+
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/image-12.png" alt="Imagem do vídeo Scrum Talks">
+        </div>
+        <div class="video-details">
+          <h2>Scrum Talks</h2>
+          <p>DigitalInnovationOne</p>
+          <p>1,6 mil visualizações</p>
+          <p>Transmitido há 3 dias</p>
+        </div>
+      </article>
+
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/image-13.png" alt="Imagem do vídeo Machine Learning Avançado - Fast Track">
+        </div>
+        <div class="video-details">
+          <h2>Machine Learning Avançado - Fast Track</h2>
+          <p>DigitalInnovationOne</p>
+          <p>1,7 mil visualizações</p>
+          <p>Transmitido há 4 dias</p>
+        </div>
+      </article>
+
+      <article class="video-item">
+        <div class="video-thumbnail">
+          <img src="assets/images/image-14.png" alt="Imagem do vídeo Global Skills #2 - Project Planning">
+        </div>
+        <div class="video-details">
+          <h2>Global Skills #2 - Project Planning</h2>
+          <p>DigitalInnovationOne</p>
+          <p>971 visualizações</p>
+          <p>Transmitido há 5 dias</p>
+        </div>
+      </article>
+
+    </aside>
+  </main>
+</body>
+
+</html>
