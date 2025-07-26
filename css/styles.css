@@ -328,14 +328,9 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 1200px) {
-  .video-title {
-    font-size: 16px;
-  }
-  
-  .action p {
-    font-size: 12px;
-    padding: 2px;
+@media (max-width: 1366px) {
+  .video-actions {
+    gap: 0;
   }
 }
 
@@ -416,12 +411,20 @@ body {
     font-size: 16px;
   }
 
+  .action {
+    padding: 4px;
+  }
+
   .action p {
     display: none;
   }
 
   .main-container {
     padding: 12px;
+  }
+
+  .video-actions {
+    gap: 6px;
   }
 
   .video-item {
