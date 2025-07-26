@@ -36,7 +36,7 @@
 
 - [Plataforma DIO](https://web.dio.me/)
 - [Link do Figma](https://www.figma.com/file/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?node-id=0%3A1)
-- [Deploy GitHub Pages](https://trilha-css-desafio-02.netlify.app/)
+- [Deploy Netlify](https://trilha-css-desafio-02.netlify.app/)
 
 ## 👨‍💻 Autor
 
